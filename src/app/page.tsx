@@ -53,7 +53,7 @@ export default function Home() {
       <main className="flex-1">
         <section className="hero text-center py-16 px-4 bg-gradient-to-r from-orange-100 via-white to-orange-50 dark:from-gray-900 dark:via-gray-950 dark:to-gray-900">
           <h2 className="text-4xl md:text-5xl font-bold mb-4 text-orange-600">Artisan Rénovation</h2>
-          <p className="text-lg md:text-xl text-gray-700 dark:text-gray-200 max-w-2xl mx-auto mb-8">Optimiser votre espace de vie, c'est transformer votre quotidien. Chaque centimètre compte, chaque détail fait la différence. Notre expertise transforme vos contraintes en opportunités d'aménagement innovantes.</p>
+          <p className="text-lg md:text-xl text-gray-700 dark:text-gray-200 max-w-2xl mx-auto mb-8">Optimiser votre espace de vie, c&apos;est transformer votre quotidien. Chaque centimètre compte, chaque détail fait la différence. Notre expertise transforme vos contraintes en opportunités d&apos;aménagement innovantes.</p>
         </section>
         <section className="max-w-5xl mx-auto w-full py-12 px-4">
           <h2 className="text-2xl font-bold mb-6">Projets vedettes</h2>
