@@ -1,36 +1,47 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Kimi Next.js Dashboard (Pro)
 
-## Getting Started
+## Stack
+- **Next.js 14+** (App Router, TypeScript, SSR/SSG ready)
+- **Tailwind CSS** (JIT, dark mode, plugins forms/typography/aspect-ratio/container-queries/scrollbar)
+- **HeadlessUI** (sidebar responsive, modals, accessible UI)
+- **Heroicons** (icônes SVG modernes)
+- **DaisyUI** (composants stylés, thèmes)
+- **ESLint** (qualité code)
 
-First, run the development server:
+## Structure UX/Design
+- **Layout parent en CSS Grid** : footer toujours visible, main scrollable, sidebar sticky
+- **Sidebar responsive** : drawer mobile, transitions, accessibilité HeadlessUI
+- **Dark mode natif**
+- **Composants extensibles, pro et évolutifs**
+- **Prêt pour l’intégration RadixUI/DaisyUI**
 
+## Plugins Tailwind
+- `@tailwindcss/forms` (formulaires pros)
+- `@tailwindcss/typography` (textes riches)
+- `@tailwindcss/aspect-ratio` (images/videos)
+- `@tailwindcss/container-queries` (responsive avancé)
+- `tailwind-scrollbar` (scrollbar custom)
+- `daisyui` (thèmes et composants)
+
+## Démarrage
 ```bash
+cd kimi-nextjs-dashboard
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Fichiers clés
+- `/src/app/layout.tsx` : layout global grid/flex
+- `/src/components/Sidebar.tsx` : sidebar responsive HeadlessUI
+- `/src/components/Footer.tsx` : footer sticky
+- `/src/app/page.tsx` : dashboard d’accueil
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Améliorations possibles
+- Authentification (NextAuth.js)
+- API REST/GraphQL intégrée
+- Tests (Jest, Playwright)
+- CI/CD Vercel ou autre
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+**Ce projet est la base la plus moderne et scalable pour un backoffice/admin dashboard pro en 2024.**
