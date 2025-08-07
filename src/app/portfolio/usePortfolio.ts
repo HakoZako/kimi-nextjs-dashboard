@@ -1,5 +1,5 @@
 import { useState } from "react";
-import portfolioData from "@/public/data/portfolio.json";
+import portfolioData from "../../../public/data/portfolio.json";
 
 export function usePortfolio() {
   const [selectedProjectIndex, setSelectedProjectIndex] = useState(0);
