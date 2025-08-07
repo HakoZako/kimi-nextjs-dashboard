@@ -1,0 +1,29 @@
+[
+  {
+    "id": 1,
+    "title": "Salle de bain",
+    "medias": [
+      { "type": "image", "url": "/data/demo1.jpg" },
+      { "type": "video", "url": "/data/demo1.mp4" },
+      { "type": "image", "url": "/data/demo2.jpg" }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Cuisine",
+    "medias": [
+      { "type": "image", "url": "/data/demo2.jpg" },
+      { "type": "video", "url": "/data/demo2.mp4" },
+      { "type": "image", "url": "/data/demo3.jpg" }
+    ]
+  },
+  {
+    "id": 3,
+    "title": "Rangement",
+    "medias": [
+      { "type": "image", "url": "/data/demo3.jpg" },
+      { "type": "video", "url": "/data/demo3.mp4" },
+      { "type": "image", "url": "/data/demo1.jpg" }
+    ]
+  }
+]
